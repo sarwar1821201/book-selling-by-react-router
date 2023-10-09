@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <Header></Header>
             
-            <div>
+            <div className=' justify-center  items-center'>
                 {
                     navigation.state=== 'loading' ? 'Loading....' : ' '
                 }
